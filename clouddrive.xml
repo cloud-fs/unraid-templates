@@ -31,6 +31,6 @@ systemctl restart docker.service</Requires>
   <Config Name="Host Port 1" Target="19798" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">19798</Config>
   <Config Name="Host Key 1" Target="CLOUDDRIVE_HOME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/config</Config>
   <Config Name="Host Path 1" Target="/CloudNAS" Default="" Mode="rw,shared" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/clouddrive/MountPoints</Config>
-  <Config Name="Host Path 2" Target="/config" Default="" Mode="rw,shared" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/clouddrive/config</Config>
+  <Config Name="Host Path 2" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/clouddrive/config</Config>
   <Config Name="Host Device 1" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="true" Mask="false">/dev/fuse</Config>
 </Container>
